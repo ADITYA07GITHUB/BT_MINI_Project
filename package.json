@@ -1,0 +1,14 @@
+{
+  "name": "e-voting-app",
+  "version": "1.0.0",
+  "description": "Decentralized E-Voting Application on Ethereum with MERN stack",
+  "scripts": {
+    "migrate": "cd blockchain && npx truffle migrate --reset",
+    "compile": "cd blockchain && npx truffle compile",
+    "ganache": "npx ganache --server.port 7545 --chain.networkId 5777 --chain.chainId 1337 --wallet.deterministic",
+    "server": "cd server && npm start",
+    "client": "cd blockchain && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
